@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     debug: bool = True
 
     llm_provider: str = "ollama"
-    llm_model: str = "llama3.1"
+    llm_model: str = "llama3.2:3b"
 
     embedding_provider: str = "sentence-transformers"
     embedding_model: str = "BAAI/bge-base-en-v1.5"
